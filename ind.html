@@ -1,0 +1,76 @@
+<nav class="navbar bg-body-tertiary myNavbar mt-3">
+
+                <a class="navbar-brand mx-3" href="#">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <span>Instagram</span>
+                </a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="escriba para buscar"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+
+                <div class="nav2 d-flex justify-content-end">
+                    <div class="mymodal d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Iniciar sesión
+                        </button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Inicie sesión aquí</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="px-4 py-3">
+                                            <div class="mb-3">
+                                                <label for="exampleDropdownFormEmail1" class="form-label">Correo
+                                                    electrónico</label>
+                                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                                    placeholder="email@example.com">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleDropdownFormPassword1"
+                                                    class="form-label">Contraseña</label>
+                                                <input type="password" class="form-control"
+                                                    id="exampleDropdownFormPassword1" placeholder="Password">
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                                    <label class="form-check-label" for="dropdownCheck">
+                                                        Recuérdame
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                                        </form>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">¿Eres nuevo? Registrate aquí</a>
+                                        <a class="dropdown-item" href="#">¿Has olvidado tu contraseña?</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                
+                    <div class="dropdown-center mx-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-house"></i></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+                            <li><a class="dropdown-item" href="#">Configuración</a></li>
+                            <li><a class="dropdown-item" href="#">Sobre nosotros</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
